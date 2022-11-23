@@ -16,7 +16,7 @@ if TYPE_CHECKING:
     from .model import Whisper
 
 
-def transcribe(
+def _transcribe(
     model: "Whisper",
     audio: Union[str, np.ndarray, torch.Tensor],
     *,
