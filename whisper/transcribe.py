@@ -305,6 +305,8 @@ def cli():
 
     for audio_path in args.pop("audio"):
         result = transcribe(model, audio_path, temperature=temperature, **args)
+        print('YOE')
+        print(result)
 
         audio_basename = os.path.basename(audio_path)
 
