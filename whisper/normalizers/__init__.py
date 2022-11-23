@@ -1,2 +1,2 @@
 from .basic import BasicTextNormalizer
-from .english import EnglishTextNormalizer
+# from .english import EnglishTextNormalizer
